@@ -156,7 +156,7 @@ void PFMProject0AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
 
         // ..do something to the data...
     }*/
-    juce::Random r;
+    
     for(int i = 0; i < buffer.getNumSamples(); ++i)
     {
         for(int channel = 0; channel < buffer.getNumChannels(); ++channel)
